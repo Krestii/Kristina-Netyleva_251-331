@@ -17,14 +17,17 @@ table {
     margin-top: 15px;    
 }
 
-html, body {
-    height: 100%;
+html {
+    min-height: 100%;
 }
 
 body {
+    min-height: 100vh;
     font-family: Cascadia Mono Light;
     font-size: 24px;
-    background: linear-gradient(to bottom, #141361, #19024e);  
+    background: linear-gradient(to bottom, #141361, #170247);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 h1 {
