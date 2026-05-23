@@ -8,6 +8,10 @@
     width: 50px;
 }
 
+.photo {
+    width: 350px;
+}
+
 table {
     background-color: #020f3a;
     border-collapse: collapse;
@@ -60,15 +64,24 @@ ul {
 
 td {
     padding: 10px;
-    border-bottom: 1px solid #eee;
+    color: #9fd0eb;
+    border: 1px solid #266cbb;
 }
 
 a {
-    color: #b0dbf3;
+    color: #b1bee9;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
     color: #7d9fd1;
+}
+
+th {
+    border: 1px solid #266cbb;
+    background-color: #c7d6f1;
+    color: #3f5394;
+    padding: 10px;
+    text-align: left;
 }
